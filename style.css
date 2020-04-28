@@ -99,12 +99,16 @@ img {
 }
 
 .margin {
-  margin-top: 100px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 .row {
   margin-left: -15px;
   margin-right: -15px;
+}
+
+.row .Rt {
+  background-image: url("image/1009976.jpg");
 }
 
 .row .Et {
@@ -124,13 +128,34 @@ img {
   margin-bottom: 10px;
 }
 
+.about-item .container {
+  float: none;
+}
+
 .about-item .image {
   float: left;
   width: 25%;
 }
 
+.about-item .image img {
+  height: 350px;
+  width: 300px;
+}
+
 .about-item .about_head {
+  float: left;
   width: 75%;
+  margin-bottom: 15px;
+}
+
+.about .pa .left img,
+.about .hg .left img,
+.about .ui .left img,
+.about .wt .left img {
+  height: 50px;
+  width: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 .about > div {
@@ -145,7 +170,12 @@ img {
 }
 
 .about .right {
+  float: left;
   width: 70%;
+}
+
+.feature-item {
+  margin-top: 15px;
 }
 
 .feature .lefts {
@@ -170,6 +200,24 @@ img {
 
 .feature .right {
   width: 75%;
+}
+
+.feature .fb .lefts .right p,
+.ig .lefts .right p,
+.tw .lefts .right p {
+  margin-top: 0px;
+}
+
+.feature .fb .middle .right p,
+.ig .middle .right p,
+.tw .middle .right p {
+  margin-top: 0px;
+}
+
+.feature .fb .rights .right p,
+.ig .rights .right p,
+.tw .rights .right p {
+  margin-top: 0px;
 }
 
 .row .bg {
@@ -201,22 +249,93 @@ img {
 
 .blogs .left {
   float: left;
-  width: 25%;
+  width: 50%;
+}
+.blogs .left img {
+  width: 1000px;
+  height: 200px;
 }
 
 .blogs .right {
   float: left;
-  width: 75%;
+  width: 50%;
+  padding: 3%;
+  background-color: aqua;
+}
+
+.blogs .right p {
+  margin-bottom: 0px;
 }
 
 .thoughts .left {
   float: left;
   text-align: right;
-  width: 75%;
+  width: 50%;
+}
+
+.thoughts .left p {
+  padding: 5px;
+  margin-left: 10px;
 }
 
 .thoughts .right {
-  width: 25%;
+  width: 50%;
+  float: left;
+}
+
+.thoughts .right img {
+  width: 500px;
+  padding: 15px;
+  margin-left: 100px;
+  /* margin-right: -15px; */
+}
+
+span {
+  font-size: 50px;
+}
+
+.photos .images {
+  float: left;
+  width: 50%;
+}
+
+/* .photos .videos {
+  float: left;
+  width: 50%;
+} */
+
+.images img {
+  height: 100px;
+  width: 100px;
+}
+
+.images1 img {
+  height: 200px;
+  width: 400px;
+}
+/* 
+.videos .video1 video {
+  height: 250px;
+  width: 500px;
+}
+
+.videos .video2 video {
+  float: left;
+  height: 400px;
+  width: 800px;
+} */
+
+.videos video {
+  height: 150px;
+  width: 250px;
+}
+
+.photos .videos .video1 video {
+  height: 300px;
+  width: 600px;
+}
+
+.photos .videos .video2 video {
   float: left;
 }
 
@@ -234,11 +353,22 @@ footer .container > div {
   width: 25%;
 }
 
-.menu .menu3 ul {
+.menu .menu3 ul,
+.menu2 ul,
+.tours ul,
+.contact ul {
   padding-left: 0%;
   list-style: none;
 }
 .menu .menu2 {
   float: left;
   width: 75%;
+}
+
+.menu h3 {
+  margin-bottom: 0px;
+}
+
+footer p {
+  text-align: center;
 }
